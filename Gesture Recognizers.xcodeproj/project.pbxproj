@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		155FB9811AF69B4B009059B4 /* Well-Played-Meme.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 155FB9801AF69B4B009059B4 /* Well-Played-Meme.jpg */; };
 		15B6DA491AF3A4D700EA84E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B6DA481AF3A4D700EA84E9 /* main.m */; };
 		15B6DA4C1AF3A4D700EA84E9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B6DA4B1AF3A4D700EA84E9 /* AppDelegate.m */; };
 		15B6DA4F1AF3A4D700EA84E9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B6DA4E1AF3A4D700EA84E9 /* ViewController.m */; };
@@ -14,6 +15,11 @@
 		15B6DA541AF3A4D700EA84E9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15B6DA531AF3A4D700EA84E9 /* Images.xcassets */; };
 		15B6DA571AF3A4D700EA84E9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 15B6DA551AF3A4D700EA84E9 /* LaunchScreen.xib */; };
 		15B6DA631AF3A4D700EA84E9 /* Gesture_RecognizersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B6DA621AF3A4D700EA84E9 /* Gesture_RecognizersTests.m */; };
+		15B6DA6E1AF3A5A700EA84E9 /* SwipeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B6DA6D1AF3A5A700EA84E9 /* SwipeViewController.m */; };
+		15B6DA711AF3AB4700EA84E9 /* PanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B6DA701AF3AB4700EA84E9 /* PanViewController.m */; };
+		15B6DA741AF3AD6100EA84E9 /* PinchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B6DA731AF3AD6100EA84E9 /* PinchViewController.m */; };
+		15B6DA771AF3B03700EA84E9 /* TapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B6DA761AF3B03700EA84E9 /* TapViewController.m */; };
+		15B6DA7D1AF3B07800EA84E9 /* RotationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 15B6DA7C1AF3B07800EA84E9 /* RotationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +33,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		155FB9801AF69B4B009059B4 /* Well-Played-Meme.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Well-Played-Meme.jpg"; path = "Images.xcassets/Well-Played-Meme.jpg"; sourceTree = "<group>"; };
 		15B6DA431AF3A4D700EA84E9 /* Gesture Recognizers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Gesture Recognizers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B6DA471AF3A4D700EA84E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15B6DA481AF3A4D700EA84E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +47,16 @@
 		15B6DA5C1AF3A4D700EA84E9 /* Gesture RecognizersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Gesture RecognizersTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		15B6DA611AF3A4D700EA84E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15B6DA621AF3A4D700EA84E9 /* Gesture_RecognizersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Gesture_RecognizersTests.m; sourceTree = "<group>"; };
+		15B6DA6C1AF3A5A700EA84E9 /* SwipeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwipeViewController.h; sourceTree = "<group>"; };
+		15B6DA6D1AF3A5A700EA84E9 /* SwipeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwipeViewController.m; sourceTree = "<group>"; };
+		15B6DA6F1AF3AB4700EA84E9 /* PanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PanViewController.h; sourceTree = "<group>"; };
+		15B6DA701AF3AB4700EA84E9 /* PanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PanViewController.m; sourceTree = "<group>"; };
+		15B6DA721AF3AD6100EA84E9 /* PinchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PinchViewController.h; sourceTree = "<group>"; };
+		15B6DA731AF3AD6100EA84E9 /* PinchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PinchViewController.m; sourceTree = "<group>"; };
+		15B6DA751AF3B03700EA84E9 /* TapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TapViewController.h; sourceTree = "<group>"; };
+		15B6DA761AF3B03700EA84E9 /* TapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TapViewController.m; sourceTree = "<group>"; };
+		15B6DA7B1AF3B07800EA84E9 /* RotationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotationViewController.h; sourceTree = "<group>"; };
+		15B6DA7C1AF3B07800EA84E9 /* RotationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +98,24 @@
 		15B6DA451AF3A4D700EA84E9 /* Gesture Recognizers */ = {
 			isa = PBXGroup;
 			children = (
-				15B6DA4A1AF3A4D700EA84E9 /* AppDelegate.h */,
-				15B6DA4B1AF3A4D700EA84E9 /* AppDelegate.m */,
 				15B6DA4D1AF3A4D700EA84E9 /* ViewController.h */,
 				15B6DA4E1AF3A4D700EA84E9 /* ViewController.m */,
+				15B6DA7B1AF3B07800EA84E9 /* RotationViewController.h */,
+				15B6DA7C1AF3B07800EA84E9 /* RotationViewController.m */,
+				15B6DA6C1AF3A5A700EA84E9 /* SwipeViewController.h */,
+				15B6DA6D1AF3A5A700EA84E9 /* SwipeViewController.m */,
+				15B6DA6F1AF3AB4700EA84E9 /* PanViewController.h */,
+				15B6DA701AF3AB4700EA84E9 /* PanViewController.m */,
+				15B6DA721AF3AD6100EA84E9 /* PinchViewController.h */,
+				15B6DA731AF3AD6100EA84E9 /* PinchViewController.m */,
+				15B6DA751AF3B03700EA84E9 /* TapViewController.h */,
+				15B6DA761AF3B03700EA84E9 /* TapViewController.m */,
 				15B6DA501AF3A4D700EA84E9 /* Main.storyboard */,
 				15B6DA531AF3A4D700EA84E9 /* Images.xcassets */,
+				155FB9801AF69B4B009059B4 /* Well-Played-Meme.jpg */,
 				15B6DA551AF3A4D700EA84E9 /* LaunchScreen.xib */,
+				15B6DA4A1AF3A4D700EA84E9 /* AppDelegate.h */,
+				15B6DA4B1AF3A4D700EA84E9 /* AppDelegate.m */,
 				15B6DA461AF3A4D700EA84E9 /* Supporting Files */,
 			);
 			path = "Gesture Recognizers";
@@ -199,6 +227,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				155FB9811AF69B4B009059B4 /* Well-Played-Meme.jpg in Resources */,
 				15B6DA521AF3A4D700EA84E9 /* Main.storyboard in Resources */,
 				15B6DA571AF3A4D700EA84E9 /* LaunchScreen.xib in Resources */,
 				15B6DA541AF3A4D700EA84E9 /* Images.xcassets in Resources */,
@@ -220,8 +249,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				15B6DA4F1AF3A4D700EA84E9 /* ViewController.m in Sources */,
+				15B6DA741AF3AD6100EA84E9 /* PinchViewController.m in Sources */,
+				15B6DA7D1AF3B07800EA84E9 /* RotationViewController.m in Sources */,
 				15B6DA4C1AF3A4D700EA84E9 /* AppDelegate.m in Sources */,
 				15B6DA491AF3A4D700EA84E9 /* main.m in Sources */,
+				15B6DA771AF3B03700EA84E9 /* TapViewController.m in Sources */,
+				15B6DA6E1AF3A5A700EA84E9 /* SwipeViewController.m in Sources */,
+				15B6DA711AF3AB4700EA84E9 /* PanViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +452,7 @@
 				15B6DA681AF3A4D700EA84E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		15B6DA691AF3A4D700EA84E9 /* Build configuration list for PBXNativeTarget "Gesture RecognizersTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +461,7 @@
 				15B6DA6B1AF3A4D700EA84E9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
